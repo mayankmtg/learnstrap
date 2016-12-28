@@ -1,0 +1,49 @@
+/*Side bar coding*/
+#sidebar-wrapper{
+	z-index: 1;
+	position: absolute;
+	width: 0px;
+	height: 100%;
+	overflow-y : ;
+	background: #2c3e50;
+	opacity: 0.9;
+}
+/*Content */
+
+#page-content-wrapper{
+	width: 100%;
+	position: absolute;
+}
+
+
+/*after the "wrapper" div has its class toggled to 'toggled', we change the following attributesof above*/
+
+#wrapper.toggled #sidebar-wrapper{
+	width: 250px;
+}
+
+#wrapper.toggled #page-content-wrapper{
+	padding-left: 250px;
+}
+
+.sidebar-nav{
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li{
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.sidebar-nav li a{
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+
+
+.sidebar-nav li a:hover{
+	background: #16a085;
+
+}
