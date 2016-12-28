@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="container"><!--check class = "container-fluid"-->
+		<h1>The page column style(working with grid)</h1>
+		<div class="col-md-4">Left</div>
+		<div class="col-md-4">Middle</div>
+		<div class="col-md-4">Right</div>
+	</div>
+	
+	<div class="container">
+		<!--Highlighting-->
+		<h1>Highlighting</h1>
+		<p>This is a line to show <mark>what is highlighting</mark></p>
+
+		<!--Quotes-->
+		<blockquote>
+			<p>"Famous quote"</p>
+			<footer>By "person"</footer>
+		</blockquote>
+
+
+		<!--Lists-->
+		<h4>List example</h4>
+		<dl><!--Definition list, Definition term and definition desc.-->
+			<dt>List Head</dt>
+			<dd>-item1</dd>
+			<dd>-item2</dd>
+			<dt>List 2 Head</dt>
+			<dd>-item1</dd>
+			<dd>-item2</dd>
+		</dl>
+		<br>
+
+		<!--Code inclusion in the html page-->
+		<h4>This is code inclusion</h4>
+		<h4>Single line</h4>
+		<p>Use the statement <code>break;</code> to juml out of the loop.</p>
+
+		<h4>Multi line of code involves:</h4>
+		<pre>
+for i in all_set:
+	print i
+		</pre>
+
+		<!--Keyboard input-->
+		<h4>Keyboard key combo showing</h4>
+		<p>Use the following key combo: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd></p>
+
+
+		<!--Built in color classes-->
+		<h4>Built in color classes</h4>
+		<p>Defalut text</p>
+		<p class="text-muted">Muted Text</p>
+		<p class="text-success">Success Text</p>
+		<p class="bg-success">Success Back</p>
+		<p class="text-danger">Danger Text</p>
+		<p class="bg-danger">Danger Back</p>
+
+
+		<!--Tables-->
+		<h2>Tables</h2>
+		<h3>Normal Table</h3>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Col1</th>
+					<th>Col2</th>
+					<th>Col3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<h3>Condensed Table</h3>
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>Col1</th>
+					<th>Col2</th>
+					<th>Col3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<h3>Striped Table</h3>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Col1</th>
+					<th>Col2</th>
+					<th>Col3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+				<tr>
+					<td>item1</td>
+					<td>item3</td>
+					<td>item2</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<!--Images and Videos-->
+		<!--Always make the images & videos responsive(they resize according to the size of the window -->
+		<center>
+			<img src="images/img1.png" class="img-responsive">
+			<br>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="www.youtube.com/embed/B4UynTrQjNg" ></iframe>
+			</div>
+		</center>
+
+
+		<br><br><br><br>
+	</div>
+
+
+</body>
+</html>
